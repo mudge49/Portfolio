@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MiCHAEL - Home</title>
+  <link href="../output.css" rel="stylesheet">
+</head>
+<body>
+  <div class="flex flex-col">
+    <nav class="hidden lg:flex w-full py-3 bg-caribbean-current text-white">
+        <div class="container px-4 flex justify-between items-center">
+            <a href="index.html" class="flex">
+                <span class="self-center text-3xl font-extrabold whitespace-nowrap">MiCHAEL</span>
+            </a>
+            
+        </div>
+
+        <div class="flex py-3 px-12 justify-center font-bold font-mono text-2xl space-x-6">
+                <a href="#about" class="hover:underline">About</a>
+                <a href="#resume" class="hover:underline">Resume</a>
+                <a href="#projects" class="hover:underline">Projects</a>
+                <a href="#contact" class="hover:underline">Contact</a>
+        </div>
+
+    </nav>
+
+    <nav class="lg:hidden flex flex-col w-full bg-caribbean-current text-white">
+      <div class="container justify-center items-center flex">
+          <a href="index.html" class="flex">
+              <span class="text-center text-5xl py-2 font-extrabold whitespace-nowrap">MiCHAEL</span>
+          </a>
+      </div>
+
+      <div class="flex py-2 px-12 justify-center font-bold font-mono text-xl space-x-6">
+          <a href="#about" class="hover:underline">About</a>
+          <a href="#resume" class="hover:underline">Resume</a>
+          <a href="#projects" class="hover:underline">Projects</a>
+          <a href="#contact" class="hover:underline">Contact</a>
+      </div>
+  </nav>
+
+    <div id="hero" class="flex flex-col justify-center w-full h-screen bg-tiffany-blue">
+        <!-- Text Section -->
+        <div class="text-center text-white">
+          <h1 class="text-5xl md:text-7xl font-bold mb-4">Welcome to My Portfolio</h1>
+          <p class="text-xl md:text-2xl mb-6">I'm Michael M. Uy-Oco Jr., an aspiring web developer</p>
+          <!-- Call to Action Button -->
+          <a href="mailto:michael.m.uyoco.jr@gmail.com" class="bg-white text-tiffany-blue px-6 py-3 rounded-full text-lg font-semibold transition-all duration-300 hover:bg-opacity-75">
+            Email Me
+          </a>
+        </div>
+    </div>
+    
+    <div id="about" class="flex lg:flex-row flex-col justify-center items-center bg-alice-blue w-full h-auto p-8">
+      <!-- Image Section -->
+      <div class="lg:w-3/5 w-full bg-light-blue mb-6 lg:mb-0 flex justify-center">
+          <img src="../assets/profile.png" alt="About Me Image" class="rounded-3xl w-4/5 h-auto object-cover">
+      </div>
+  
+      <!-- Text Section -->
+      <div class="lg:w-1/2 w-full bg-light-red lg:p-6 p-4 font-mono flex flex-col lg:justify-center items-center">
+          <h2 class="text-4xl text-center font-bold mb-6">About Me</h2>
+          <p class="text-lg text-justify indent-16">
+              I'm Michael M. Uy-Oco Jr., an aspiring web developer with a passion for creating engaging, user-friendly websites and applications. 
+              My journey into web development has equipped me with strong skills in front-end technologies, and I’m constantly learning to improve.
+          </p>
+      </div>
+    </div>
+    
+
+  <div id="resume" class="flex flex-col bg-tiffany-blue w-full text-white p-12 min-h-screen">
+      <span class="text-8xl font-extrabold font-mono mb-8 text-center">Resume</span>
+      
+      <span class="text-5xl font-extrabold font-mono mb-8 text-center lg:text-left">Education</span>
+
+      <div class="container text-black flex flex-col mb-2 rounded-lg p-6 justify-center space-y-4 shadow-lg bg-white">
+        <span class="font-bold text-xl">Visayas State University</span>
+        <span class="italic text-xl">Bachelor of Science in Computer Science</span>
+        <img src="../assets/vsu.png">
+      </div>
+
+      <hr class="h-px my-12 bg-black border-0">
+      
+      <span class="text-5xl font-extrabold font-mono mb-8 text-center lg:text-left">Skills</span>
+  
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Skill 1 -->
+          <div class="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center">
+              <img src="../assets/Programming Language Logos/src/html/html_256x256.png" alt="HTML Icon" class="h-16 w-16 mb-4">
+              <h3 class="text-xl font-bold">HTML</h3>
+              <p class="text-gray-700 mt-2">Basic understanding of HTML5 for creating simple web page structures.</p>
+          </div>
+          
+          <!-- Skill 2 -->
+          <div class="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center">
+              <img src="../assets/Programming Language Logos/src/css/css_256x256.png" alt="CSS Icon" class="h-16 w-16 mb-4">
+              <h3 class="text-xl font-bold">CSS</h3>
+              <p class="text-gray-700 mt-2">Familiar with styling basic layouts and designs using CSS, including Flexbox and Grid.</p>
+          </div>
+  
+          <!-- Skill 3 -->
+          <div class="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center">
+              <img src="../assets/Programming Language Logos/src/javascript/javascript_256x256.png" alt="JavaScript Icon" class="h-16 w-16 mb-4">
+              <h3 class="text-xl font-bold">JavaScript</h3>
+              <p class="text-gray-700 mt-2">Entry-level knowledge of JavaScript, focusing on simple DOM manipulation and basic logic.</p>
+          </div>
+  
+          <!-- Skill 4 -->
+          <div class="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center">
+              <img src="../assets/tailwind_logo.svg" alt="Tailwind CSS Icon" class="h-16 w-16 mb-4">
+              <h3 class="text-xl font-bold">Tailwind CSS</h3>
+              <p class="text-gray-700 mt-2">Able to use Tailwind CSS to apply pre-built classes for quick styling of simple web pages.</p>
+          </div>
+  
+          <!-- Skill 5 -->
+          <div class="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center">
+              <img src="../assets/typescript.png" alt="React Icon" class="h-16 w-16 mb-4">
+              <h3 class="text-xl font-bold">TypeScript</h3>
+              <p class="text-gray-700 mt-2">Basic understanding of TypeScript syntax and type definitions, able to work on small projects with static type checking.</p>
+          </div>
+  
+        <!-- Skill 6 -->
+        <div class="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center">
+            <img src="../assets/github.png" alt="GitHub Icon" class="h-16 w-16 mb-4">
+            <h3 class="text-xl font-bold">GitHub</h3>
+            <p class="text-gray-700 mt-2">Basic understanding of version control, including pushing and pulling code using GitHub.</p>
+        </div>
+    </div>
+  </div>
+
+  <div id="projects" class="w-full min-h-screen items-center justify-center bg-pale-dogwood">
+    <span class="text-5xl font-extrabold font-mono p-6 text-center">Projects</span>
+  </div>
+  
+  <div id="contact" class="flex flex-col items-center justify-center bg-atomic-tangerine w-full p-4 h-auto">
+    <span class="text-center text-3xl py-2 font-mono font-extrabold">Contact Me</span>  
+    <div class="flex flex-row space-x-6">
+      <a href="https://www.linkedin.com/in/michael-jr-uy-oco-7b8146331" target="_blank"><img src="../assets/social media icons/large/filled/linkedin.svg" class="h-16 w-16"></a>
+      <a href="mailto:michael.m.uyoco.jr@gmail.com"><img src="../assets/gmail.png" target="_blank" class="h-16 w-16"></a>
+      <a href="https://www.facebook.com/mykeloiuko/"><img src="../assets/social media icons/large/filled/facebook.svg" target="_blank" class="h-16 w-16"></a>
+    </div>
+  </div>
+  
+
+  </div>
+</body>
+</html>
